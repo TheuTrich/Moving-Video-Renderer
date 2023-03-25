@@ -4,10 +4,8 @@ from enum import Enum
 import hashlib
 import cv2
 import numpy as np
-import PIL.Image
 
 input_video = "bad.mkv"
-
 
 video = cv2.VideoCapture(input_video)
 
